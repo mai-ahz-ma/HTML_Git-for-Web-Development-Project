@@ -87,9 +87,19 @@
                                                                             /*regularly update work onto github
 Stretch Questions
 
-    1. What is the difference between an inline element and a block element?
+   1. What is the difference between an inline element and a block element?
+        block elements start on a new line         <p><div>
+      inline allows for nesting within elements.   <span><a><em><img>
     2. What happens when an element is positioned absolutely? 
+        positioned in precise place in relation to parent element
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        max-width:
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the fix for the box model? 
+        block         <div><table>
+        inline        <span><script>
+        block-inline  <nav>
+    5. In your own words, explain the box model. What is the fix for the box model?
+        box model encompasses content, padding (in relation to content), border, and margin (from border to edge of page). dimensions of each element can be modified using % for height&width, or within the element T% R% B% L%  (padding {12% 25% 10% 24%})  
+        box-sizing is more efficient as is allows for padding and border to be included and not affected by width&height. easy and clean
+
 
