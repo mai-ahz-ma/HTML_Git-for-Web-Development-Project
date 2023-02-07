@@ -1,5 +1,5 @@
-
-    1. What is Semantic HTML? 
+<--! <3 -->
+    1. What is Semantic HTML
 
         the use of tags like <h#>, <p>,
 
